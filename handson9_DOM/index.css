@@ -1,0 +1,16 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around
+    
+}
+.items{
+    width:100px;
+    height:100px;
+    border:2px solid green;
+}
+button{
+    background-color: cadetblue;
+    width:100px;
+    height:70px;
+}

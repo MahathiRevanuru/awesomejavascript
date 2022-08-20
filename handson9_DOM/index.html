@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="text">div one with  id text</div>
+    <h1>Hello</h1>
+    <div class="box">hello i am div element with class name as box.</div>
+    
+    <div class="container">
+        <div class="items"></div>
+        <div class="items"></div>
+        <div class="items"></div>
+    </div>
+    <button onclick="ChangeDirection()"> direction</button>
+    <h1> Hello</h1>
+
+    <h2 class="changetext">Hello World</h2>
+    <button onclick="ChangeText()"> Change Text</button>
+    <br>
+    <br>
+
+    <div class="dropdown">
+
+        <label for="year">Year</label>
+        <select name="" onchange="yearChange()" id="yearSelect">
+            <option value="2015-2016">2015-2016</option>
+            <option value="2016-2017">2016-2017</option>
+            <option value="2017-2018">2017-2018</option>
+            <option value="2018-2019">2018-2019</option>
+            <option value="2019-2020">2019-2020</option>
+            <option value="2020-2021">2020-2021</option>
+            <option value="2021-2022">2021-2022</option>
+        </select>
+        <p>The Selected Year :<span id="year"></span></p>
+    </div>
+
+<script src="index.js"></script>
+</body>
+</html>

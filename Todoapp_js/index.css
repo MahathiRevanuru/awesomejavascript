@@ -1,0 +1,139 @@
+body{
+    background-color: black;
+    color: #fff;
+}
+.tasklist{
+    margin-top: 4rem;
+}
+.task{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-left: 7rem;
+}
+.list{
+    font-size: 38px;
+}
+.additems{
+    float: right;
+    font-size: 38px;
+    margin-right: 10%;
+}
+#plusicon{
+    font-size: 30px;
+    color: rgb(37, 251, 255);
+    cursor: pointer;
+}
+#noitems{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin-left: 7rem;
+    margin-top: 5rem;
+}
+#aditems{
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    margin-left: 7rem;
+    margin-top: 5rem;
+}
+#popup{
+    position: absolute;
+    top: 35vh;
+    left: 37%;
+    width: 400px;
+    height: 210px;
+    border: 2px solid rgb(133, 81, 81);
+    border-radius: 12px;
+    display: none;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: white;
+    color: rgb(21, 40, 134);
+    line-height: 48px;
+    padding: 18px;
+
+    box-sizing: border-box;
+    font-size: 27px;
+}
+#inputtext{
+    width: 280px;
+    height: 28px;
+    text-align: center;
+    font-size: 17px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+button{
+    width: 95px;
+    height: 40px;
+    background-color: red;
+    color: #fff;
+    border-radius: 15px;
+    font-size: 19px;
+    margin: 22px;
+    font-weight: 700;
+    cursor: pointer;
+}
+#boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#childbox{
+    width: 270px;
+    height: 365px;
+    margin: 72px;
+    margin-top: 7rem;
+    border: 2px solid white;
+    background-color: #fff;
+    color: rgb(5, 17, 75);
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 1px 1px 20px gray;
+    font-size: 27px;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 37px;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+}
+hr{
+    background-color: rgba(94, 0, 128, 0.796);
+    height: 1.2px;
+    position: absolute;
+    top: 50px;
+    left: -0.31px;
+    margin-left: -1.3px;
+    width: 268px;
+ }
+ #popup2{
+    position: absolute;
+    top: 35vh;
+    left: 37%;
+    width: 400px;
+    height: 210px;
+    border: 2px solid rgb(220, 146, 146);
+    border-radius: 12px;
+    display: none;
+    text-align: center;
+    font-family: sans-serif;
+    background-color: white;
+    color: rgb(21, 40, 134);
+    line-height: 48px;
+    padding: 18px;
+    box-sizing: border-box;
+    font-size: 27px;
+ }
+ #inputtext2{
+    width: 300px;
+    height: 28px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 8px;
+ }
+ 
+
+ 
